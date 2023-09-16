@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-synthese-active-router',
@@ -6,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./synthese-active-router.component.scss']
 })
 export class SyntheseActiveRouterComponent {
+  prenom! :string
+  constructor(private _maRoute:Router){
+  
+  }
+  
+  dirigerVersProfil(){
+    if (this.prenom) {
+       this._maRoute.navigate(['profil1/'+this.prenom])
+    }
+  }
 
 }
