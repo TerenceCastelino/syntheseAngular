@@ -1,54 +1,58 @@
-<h2>ActivedRoute</h2>
+<main>
+  <h2>ActivedRoute</h2>
 
-<input type="text" [(ngModel)]="prenom" [placeholder]="'ton prenom'" />
-<button type="button" (click)="dirigerVersProfil()">Click</button>
+  <input type="text" [(ngModel)]="prenom" [placeholder]="'ton prenom'" />
+  <button type="button" (click)="dirigerVersProfil()">Click</button>
 
-<h4>Etapes</h4>
-<ol>
-  <li>
-    <h5>Définissez vos routes :</h5>
-    <p>
-      Dans votre fichier de routage (app-routing.module.ts), configurez vos
-      routes de la même manière qu'auparavant :
-    </p>
+  <h4>Etapes</h4>
+  <ol>
+    <li>
+      <h5>Définissez vos routes :</h5>
+      <p>
+        Dans votre fichier de routage (app-routing.module.ts), configurez vos
+        routes de la même manière qu'auparavant :
+      </p>
 
-    <img src="../../../assets/activatedRoute1.png" alt="" />
-  </li>
-  <li>
-    <h5>Modifiez le composant d'accueil (AppComponent) :</h5>
-    <p>
-      Dans le template HTML de AppComponent, créez un champ de texte où
-      l'utilisateur peut saisir le prénom et un bouton pour déclencher la
-      navigation :
-    </p>
-    <img src="../../../assets/activatedRoute2.png" alt="" />
-    <p>
-      Dans le composant TypeScript correspondant (app.component.ts), importez
-      Router depuis @angular/router et utilisez-le pour effectuer la navigation
-      lorsque le bouton est cliqué. Le prénom sera extrait de la variable prenom
-      que nous avons liée avec ngModel :
-    </p>
-    <img src="../../../assets/activatedRoute3.png" alt="" />
-  </li>
-  <li>
-    <h5>
-      Accédez au prénom dans ProfilComponent en utilisant ActivatedRoute :
-    </h5>
-    <p>
-      Dans le composant ProfilComponent, importez ActivatedRoute depuis
-      @angular/router et utilisez-le pour extraire le prénom de la route. Voici
-      comment vous pouvez le faire :
-    </p>
-    <img src="../../../assets/activatedRoute4.png" alt="" />
-    <p>
-      Dans cet exemple, nous utilisons route.paramMap.subscribe pour surveiller
-      les modifications de la route et extraire le prénom de la route. Une fois
-      que le prénom est extrait, il est stocké dans la variable prenom.
-    </p>
-  </li>
-  <li>
-    <h5>Affichez le prénom dans le template :</h5>
-    <p>Enfin, affichez le prénom dans le template HTML de ProfilComponent.</p>
-    <img src="../../../assets/activatedRoute5.png" alt="" />
-  </li>
-</ol>
+      <img src="../../../assets/activatedRoute1.png" alt="" />
+    </li>
+    <li>
+      <h5>Modifiez le composant d'accueil (AppComponent) :</h5>
+      <p>
+        Dans le template HTML de AppComponent, créez un champ de texte où
+        l'utilisateur peut saisir le prénom et un bouton pour déclencher la
+        navigation :
+      </p>
+      <img src="../../../assets/activatedRoute2.png" alt="" />
+      <p>
+        Dans le composant TypeScript correspondant (app.component.ts), importez
+        Router depuis @angular/router et utilisez-le pour effectuer la
+        navigation lorsque le bouton est cliqué. Le prénom sera extrait de la
+        variable prenom que nous avons liée avec ngModel :
+      </p>
+      <img src="../../../assets/activatedRoute3.png" alt="" />
+    </li>
+    <li>
+      <h5>
+        Accédez au prénom dans ProfilComponent en utilisant ActivatedRoute :
+      </h5>
+      <p>
+        Dans le composant ProfilComponent, importez ActivatedRoute depuis
+        @angular/router et utilisez-le pour extraire le prénom de la route.
+        Voici comment vous pouvez le faire :
+      </p>
+      <img src="../../../assets/activatedRoute4.png" alt="" />
+      <p>
+        Dans cet exemple, nous utilisons route.paramMap.subscribe pour
+        surveiller les modifications de la route et extraire le prénom de la
+        route. Une fois que le prénom est extrait, il est stocké dans la
+        variable prenom.
+      </p>
+    </li>
+    <li>
+      <h5>Affichez le prénom dans le template :</h5>
+      <p>Enfin, affichez le prénom dans le template HTML de ProfilComponent.</p>
+      <img src="../../../assets/activatedRoute5.png" alt="" />
+    </li>
+  </ol>
+</main>
+<app-synthese-routing></app-synthese-routing>

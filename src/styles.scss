@@ -1,3 +1,6 @@
+
+ 
+
 *{
     margin: 0;
     padding: 0;
@@ -17,9 +20,11 @@ main{
     }
     h2{
         margin: 0 350px;
-        background-color: rgb(255, 255, 0);
+        font-weight: bold;
+        font-size: 3rem;
         text-align: center;
-        font-size: 2rem;
+        
+        
         
     }
     h4,h5,h3{
@@ -34,7 +39,7 @@ main{
         border: 2px solid black;
         border-radius: 5px;
         padding: 25px;
-        margin: 20px 150px;
+        margin: 20px 200px;
        
         li{
             background-color: rgba(239, 224, 224, 0.219);

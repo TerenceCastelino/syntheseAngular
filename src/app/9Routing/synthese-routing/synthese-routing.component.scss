@@ -1,26 +1,23 @@
-// main{
-// display: flex;
-// justify-content: center;
-// flex-direction: column;
-
-// //     color: aliceblue;
-//     align-items: center;
-//     background: #a39a9a;
-
-//     height: 90vh;
-
- 
-   
-//     button{
-//         height: 100px;
-//         width: 100px;
-//         background-color: black;
-        
-//         border-radius: 60%;
-//         color: rgb(214, 186, 2);
-//         margin: 20px 45px;
-       
-       
-//     }
-// }
-
+main{
+    display: flex;
+    flex-direction: column;
+    div{
+        flex-direction: row;
+        justify-content:space-between;
+        button{
+            height: 200px;
+            width: 200px;
+            margin: 100px 20px;
+            background:radial-gradient(black,rgb(61, 60, 60));
+            color: aliceblue;
+            font-weight: bolder;
+            font-size: 2rem;
+            border-radius: 30px;
+            
+        }
+        button:hover{
+            background:linear-gradient(rgb(189, 143, 6),rgb(54, 52, 52));
+            border: 5px solid rgba(255, 255, 255, 0.737);
+        }
+    }
+}

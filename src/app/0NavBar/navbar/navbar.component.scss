@@ -21,6 +21,10 @@ main{
         color: rgb(254, 255, 255);
         
     }
+    p:hover{
+        background:linear-gradient(rgb(189, 143, 6),rgb(54, 52, 52));
+        border: 1px solid white;
+    }
     a{
         margin: 1px;
         text-decoration: none;
