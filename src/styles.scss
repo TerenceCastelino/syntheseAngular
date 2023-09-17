@@ -1,22 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
-body{
+*{
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgb(207, 187, 187),rgb(157, 148, 122),rgb(161, 143, 105),rgb(215, 168, 121));
 }
-h2{
-    color: rgb(1, 1, 1);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   text-align: center;
+body{
+    
+    background:url(../src/assets/blancc.png)no-repeat center fixed;
+    background-size:cover;
 }
+main{
+   
+   
+    img{
+        width: 600px;
+        margin: 10px 0;
 
-img{
-    width: 600px;
-    margin-top: 15px;
-}
-li{
-    margin: 30px;
-    width: 600px;
-    padding: 15px;
-    border: 2px solid white;
+    }
+    h2{
+        margin: 0 350px;
+        background-color: rgb(255, 255, 0);
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+    h4,h5,h3{
+        text-align: center;
+    } 
+    .none{
+        list-style-type: none;
+    }
+       ol{
+        background-color: rgba(136, 0, 0, 0.676);
+        margin: 0 250px;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 25px;
+        margin: 20px 150px;
+       
+        li{
+            background-color: rgba(239, 224, 224, 0.219);
+            width: 600px;
+            padding: 10px;
+        }
+    }
 }

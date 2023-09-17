@@ -1,27 +1,12 @@
-
 main{
     display: flex;
-    flex-direction: column;
    
-    
-      
-    justify-content: center;
+    app-navbar{
+       
+       flex: 3;
+    }
+}   router-outlet{
   
-        margin: 0px 150px;
-        color: aliceblue;
-        align-items: center;
-        justify-content: space-around;
-        
-        border-left: solid 2px black;
-        border-right: solid 2px black;
-        // height: 90vh;
-    
-}
-app-navbar{
-    margin: 0;
-}
-router-outlet{
-    margin: 0;
-    
-   
+        border-left:  2px solid black;
+        flex: 7;
 }

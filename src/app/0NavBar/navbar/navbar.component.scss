@@ -1,24 +1,36 @@
 main{
     display: flex;
-    margin-bottom: 0;
-    
+    flex-direction:column;
+    width: 200px;
+    text-align: center;   
+    height: 500px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 100px;
     p{
-        border: 1px solid black;
-        padding: 10px;
-        color: aliceblue;
-        background-color: rgb(3, 70, 177);
+        background:linear-gradient(rgb(45, 44, 44),rgb(54, 52, 52));
+        border: 2px solid rgb(45, 45, 45);
+        padding: 11.5px;
         margin: 0px;
         flex: 1;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: rgb(254, 255, 255);
+        
     }
     a{
+        margin: 1px;
         text-decoration: none;
-        color: aliceblue;
+        color: rgb(254, 255, 255);
     }
     a:visited{
-        color: aliceblue;
+        color: rgb(215, 216, 216);
     }
     a:active{
-        color: aliceblue;
+        color: rgb(215, 216, 216);
     }
    
 }
