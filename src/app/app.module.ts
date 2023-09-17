@@ -11,6 +11,8 @@ import { SyntheseRouterlinkComponent } from './9Routing/synthese-routerlink/synt
 import { SyntheseActiveRouterComponent } from './9Routing/synthese-active-router/synthese-active-router.component';
 import { DependanceRoutingComponent } from './9Routing/dependance-routing/dependance-routing.component';
 import { Profil1Component } from './9Routing/profil1/profil1.component';
+import { InputparentComponent } from './6@Input@Output/inputparent/inputparent.component';
+import { InputEnfantComponent } from './6@Input@Output/input-enfant/input-enfant.component';
 
 
 
@@ -28,6 +30,8 @@ import { Profil1Component } from './9Routing/profil1/profil1.component';
     SyntheseActiveRouterComponent,
     DependanceRoutingComponent,
     Profil1Component,
+    InputparentComponent,
+    InputEnfantComponent,
 
 
 
