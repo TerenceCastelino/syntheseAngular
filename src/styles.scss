@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(207, 187, 187),rgb(157, 148, 122),rgb(161, 143, 105),rgb(215, 168, 121));
+}
+h2{
+    color: rgb(1, 1, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+}
+
+img{
+    width: 600px;
+    margin-top: 15px;
+}
+li{
+    margin: 30px;
+    width: 600px;
+    padding: 15px;
+    border: 2px solid white;
+}

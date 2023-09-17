@@ -1,11 +1,13 @@
 main{
     display: flex;
+    margin-bottom: 0;
     
     p{
-        border: 3px solid black;
-        padding: 15px;
+        border: 1px solid black;
+        padding: 10px;
         color: aliceblue;
         background-color: rgb(3, 70, 177);
+        margin: 0px;
         flex: 1;
     }
     a{
